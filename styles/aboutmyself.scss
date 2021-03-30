@@ -1,0 +1,103 @@
+.aboutmyself__container {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(240, 173, 233, 1) 100%);
+}
+
+.aboutmyself {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutmyself__header {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &-title {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 45px;
+        line-height: 56px;
+        letter-spacing: 0.1px;
+        color: #112D57;
+    }
+    &-socNetworks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 60px;
+        background-color: #FF6F61;
+        a {
+            padding: 10px;
+            ;
+        }
+    }
+}
+
+.aboutmyself__card {
+    margin-bottom: 100px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    &-photo {
+        background-image: url(../img/nad.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 360px;
+        width: 360px;
+    }
+    &-privateInfo {
+        background-color: #FFFFFF;
+        &-salutation {
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: 450;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+            color: #F3CD03;
+            white-space: pre;
+            border-bottom: 1px solid #D8D8D8;
+            padding-bottom: 20px;
+            text-align: left;
+        }
+        &-contacts {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.contacts__item {
+    padding-left: 0;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #0c0c0c;
+    list-style-type: none;
+    text-align: left;
+    .title {
+        width: 100px;
+        display: inline-block;
+    }
+}
+
+.contacts__answer {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #0c0c0c;
+    list-style-type: none;
+    text-align: left;
+}

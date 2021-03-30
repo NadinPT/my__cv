@@ -1,0 +1,54 @@
+.mySkills__container {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(196, 214, 235, 1) 100%);
+}
+
+.skills {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    &__header-title {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 45px;
+        line-height: 56px;
+        letter-spacing: 0.1px;
+        color: #112D57;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        &-textsMost {
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: 250;
+            font-size: 19px;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            color: #0c0c0c;
+            text-align: left;
+        }
+        &-progressbar {
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: 250;
+            font-size: 19px;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            color: #0c0c0c;
+            &__lebel {
+                display: flex;
+                flex-direction: column
+            }
+        }
+    }
+}
